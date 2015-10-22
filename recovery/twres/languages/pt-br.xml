@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<language>
+	<!-- Traduzido por Napoleão Rolim -->
+    <display>Português Brasileiro</display>
+ 
+    <resources>
+        <resource name="font" type="fontoverride" filename="RobotoCondensed-Regular.ttf" scale="100" />
+        <resource name="mediumfont" type="fontoverride" filename="RobotoCondensed-Regular.ttf" scale="100" />
+        <resource name="filelist" type="fontoverride" filename="RobotoCondensed-Regular.ttf" scale="100" />
+        <resource name="fixed" type="fontoverride" filename="DroidSansMono.ttf" scale="100" />
+         
+        <!-- Mainpage translation -->
+        <string name="install_button_text">Instalar</string>
+        <string name="wipe_button_text">Limapr</string>
+        <string name="backup_button_text">Backup</string>
+        <string name="restore_button_text">Restaurar</string>
+        <string name="mount_button_text">Montar</string>
+        <string name="settings_button_text">Configurações</string>
+        <string name="advanced_button_text">Advançado</string>
+        <string name="reboot_button_text">Reiniciar</string>
+         
+        <!-- Install translation -->
+        <string name="install_zip_text">Instalar Zip</string>
+        <string name="install_image_text">Instar Imagem</string>
+        <string name="select_file_from_text">Selecionar Arquivo</string>
+        <string name="select_storage_text">Selecionar Armazenamento</string>
+         
+        <!-- flash-confirm translation -->
+        <string name="install_warning1_text">Essa operação pode instalar softwares</string>
+        <string name="install_warning2_text">incompatíveis e tornar seu dispositivo inutilizável.</string>
+        <string name="install_cancel1_text">Pressione Voltar para cancelar a adição desse arquivo zip.</string>
+        <string name="install_file_text">Arqivo:</string>
+        <string name="install_folder_text">Pasta:</string>
+        <string name="install_signature_text">Verificação de assinatura do arquivo zip</string>
+        <string name="install_inject_text">Injectar TWRP depois da instalação</string>
+        <string name="install_add_zip_text">Adicionar mais Zips</string>
+        <string name="install_clear_queue_text">Limpar fila de arquivos Zip</string>
+        <string name="install_swipe_flash_text">Deslize para confirmar o Flash</string>
+        <string name="install_max_of_text">de um max de 10 Arquivos em fila</string>
+         
+         
+        <!-- Flash zip translation -->
+        <string name="install_of_text">of</string>
+         
+        <!-- Flash done translaton -->
+        <string name="install_failed_text">Falhou</string>
+        <string name="install_successful_text">Concluído</string>
+        <string name="install_reboot_system_text">Reiniciar Sistema</string>
+         
+        <!-- flashimage_confirm -->
+        <string name="install_select_target_p_text">Selecione a Partição Alvo</string>
+        <string name="install_select_partition_text">Selecione a Partição para Instalar Imagem:</string>
+         
+        <!-- clear vars translation -->
+        <string name="install_confirm_action_text">Confirmar Ação</string>
+        <string name="install_cancel2_action_text">Pressione o botão Voltar para cancelar.</string>
+         
+        <!-- action translation -->
+        <string name="install_cancel_action_text">Cancelar</string>
+         
+        <!-- action complete -->
+        <string name="install_back_text">Voltar</string>
+         
+        <!-- wipe -->
+        <string name="wipe_text">Limpar</string>
+        <string name="factory_reset_text">Factory Reset</string>
+        <string name="factory_reset_wip1_text">Limpar Data, Cache, e Dalvik</string>
+        <string name="factory_reset_wip2_text">(não incluir armazenamento interno)</string>
+        <string name="factory_reset_wip3_text">Na maioria das vezes esta é</string>
+        <string name="factory_reset_wip4_text">a única limpeza que você precisa.</string>
+        <string name="android_secure_text">Android Secure</string>
+        <string name="sd_ext_text">SD-EXT</string>
+        <string name="advanced_wipe_text">Limpeza Avançada</string>
+        <string name="format_data_text">Formatar Data</string>
+        <string name="wipe_encryption_text">Limpar Encriptação</string>
+        <string name="swipe_factory_text">Deslize para executar Factory Reset</string>
+         
+        <!-- advanced wipe -->
+        <string name="select_partition_wipe_text">Selecionar Partitições para Limpar:</string>
+        <string name="invalid_partition_wipe_text">Seleção de partição Inválida</string>
+        <string name="change_or_repair_file_text">Repairar ou Mudar o Sistema de Arquivos</string>
+        <string name="swipe_wipe_text">Deslizar para Limpar</string>
+         
+        <!-- formatdata -->
+        <string name="format_data1_text">Formatar Data irá apagar todos seus apps,</string>
+        <string name="format_data2_text">backups, imagens, videos, mídia, and</string>
+        <string name="format_data3_text">remover a encriptação do armazena interno.</string>
+        <string name="format_data4_text">Essa Ação Não Pode Ser Desfeita! Pressione voltar para cancelar.</string>
+        <string name="format_data5_text">Digite "yes" para continuar.</string>
+         
+        <!-- partitionoptions -->
+        <string name="p_options_text">Partition Options for:</string>
+        <string name="m_options_text">Mount Point:</string>
+        <string name="c_fs_text">Current file system:</string>
+        <string name="present_y_text">Present: Yes</string>
+        <string name="present_n_text">Present: No</string>
+        <string name="removable_y_text">Removable: Yes</string>
+        <string name="removable_n_text">Removable: No</string>
+        <string name="size_text">Size:</string>
+        <string name="used_text">Used:</string>
+        <string name="free_text">Free:</string>
+        <string name="backup_size_text">Backup Size:</string>
+        <string name="resize_fs_text">Resize File System</string>
+        <string name="repair_fs_text">Repair File System</string>
+        <string name="change_fs_text">Change File System</string>
+         
+        <!-- selectfilesystem -->
+        <string name="change_fs_for_text">Mudar Sistema de Arquivos para:</string>
+        <string name="mount_point_text">Mount Point:</string>
+        <string name="current_fs_text">Sistema de arquivos atual:</string>
+        <string name="incompatible_fs_warn1_text">Algumas ROMs ou kernels podem não suportar certos</string>
+        <string name="incompatible_fs_warn2_text">sistemas de arquivos. Proceda com cuidado!</string>
+        <string name="ext2_text">EXT2</string>
+        <string name="ext3_text">EXT3</string>
+        <string name="ext4_text">EXT4</string>
+        <string name="fat_text">FAT</string>
+        <string name="exfat_text">exFAT</string>
+        <string name="f2fs_text">F2FS</string>
+         
+        <!-- Backup -->
+        <string name="backup_text">Backup</string>
+        <string name="storage_text">Armazenamento:</string>
+        <string name="encryption_text">ENCRIPTAÇÃO</string>
+        <string name="name_text">Nome:</string>
+        <string name="select_p_t_b_text">Selecionar Partições para Backup:</string>
+        <string name="select_storage_text">Selecionar Armazenamento</string>
+        <string name="refresh_sizes_text">Atualizar Tamanhos</string>
+        <string name="swipe_backup_text">Deslize para executar o Backup</string>
+        <string name="storage_text">Armazenamento:</string>
+        <string name="enable_compres_text">Ativar compressão</string>
+        <string name="skip_md5_g_text">Pular geração de MD5 durante o backup</string>
+        <string name="disable_space_check_text">Disativar Verificação de Espaço Livre</string>
+        <string name="backup_name_exists_text">Já existe um Backup com esse nome!</string>
+        <string name="append_date_text">Anexar Data</string>
+        <string name="encryption_?_text">Encriptar seu Backup?</string>
+        <string name="enter_pw_text">Entre com uma Senha:</string>
+        <string name="pw_wrong_text">As senhas não coincidem!</string>
+        <string name="cancel_text">Cancelar</string>
+        <string name="pw_again_text">Entre com a Senha novamente:</string>
+        <string name="progress_text">Progresso:</string>
+         
+        <!-- Restore -->
+        <string name="restore_text">Restorar</string>
+        <string name="select_b_f_text">Selecionar Backup de</string>
+        <string name="select_p_restore_text">Selecionar Pacote para Restauração:</string>
+        <string name="encrypted_b_text">Backup Encriptado</string>
+        <string name="enter_pas_text">Entrar com a Senha:</string>
+        <string name="pw_fail_text">Senha incorreta, por favor, tente novamente!</string>
+        <string name="delete_b_text">Deletar Backup</string>
+        <string name="try_dec_text">Backup Encriptado - Trentando Desencriptação</string>
+        <string name="b_made_on_text">Backup feito em</string>
+        <string name="select_p_restore_text">Selecionar Partições para Restaurar:</string>
+        <string name="enable_md5_of_b_text">Ativar Verificação do MD5 dos Arquivos de Backup</string>
+        <string name="delete_b_text">Deletar Backup</string>
+        <string name="swipe_restore_text">Deslize para Restaurar</string>
+        <string name="rename_b_text">Renomear Backup</string>
+         
+        <!-- Mount -->
+        <string name="mount_text">Montar</string>
+        <string name="select_p_mount_text">Selecionar Partições para Montar:</string>
+        <string name="mount_sys_ro_text">Montar partição do sistema como apenas leitura</string>
+        <string name="mount_usb_text">Montar Armazenamento USB</string>
+        <string name="decrypt_data_text">Desencriptar Data</string>
+        <string name="enable_mtp_text">Ativar MTP</string>
+        <string name="disable_mtp_text">Desativar MTP</string>
+        <string name="usb_storage_text">Armazenamento USB</string>
+        <string name="usb_storage_m_text">Armazenamento USB Montado</string>
+        <string name="remove_safe1_text">Certifique-se de remover seu dispositivo com segurança</string>
+        <string name="remove_safe2_text">de seu computador antes de desmonta-lo! </string>
+        <string name="unmount_text">Desmotar</string>
+         
+        <!-- rebootmenu -->
+        <string name="reboot_m_text">Menu de Reinício</string>
+        <string name="system_text">Sistema</string>
+        <string name="power_off_text">Desligar</string>
+        <string name="recovery_text">Recovery</string>
+        <string name="bootloader_text">Bootloader</string>
+        <string name="download_text">Download</string>
+         
+        <!-- system ro -->
+        <string name="unmodified_sys_text">Partição do Sistema não modificada</string>
+        <string name="keep_ro_?_text">Manter Sistema como Apenas Leitura?</string>
+        <string name="keep_ro_?1_text">TWRP pode deixar a sua partição de sistema sem modificações</string>
+        <string name="keep_ro_?2_text">para tornar mais fácil para você receber updates oficiais.</string>
+        <string name="keep_ro_?3_text">TWRP será incapaz de previnir a ROM  de fabrica (Stock) de</string>
+        <string name="keep_ro_?4_text">substituir o TWRP e não vai se oferecer para rootar seu dispositivo.</string>
+        <string name="keep_ro_?5_text">Instalar zips ou realizar operações via adb ainda podem</string>
+        <string name="keep_ro_?6_text">modificar a partição do Sistema.</string>
+        <string name="never_show_text">Não mostrar esta tela durante a inicialização novamente</string>
+        <string name="keep_ro_!_text">Manter Apenas Leitura</string>       
+        <string name="swipe_modify_text">Deslizar para Permitir Modificações</string>
+             
+        <!-- Settings translation -->
+        <string name="settings_text">Configurações</string>
+        <string name="g_settings_text">Configurações Gerais</string>
+        <string name="zip_sig_settings_text">verificação de assinatura de arquivos Zip</string>
+        <string name="rmrf_settings_text">Usar o comando rm -rf ao invés de formatar</string>
+        <string name="skip_md5_settings_text">Pular a geração de MD5durante o backup</string>
+        <string name="enable_md5_settings_text">Ativar a verificação de MD5 dos arquivos de backup</string>
+        <string name="24_settings_text">Usar relógio com 24 horas</string>
+        <string name="samshit_settings_text">Samsung Navbar Layout</string>
+        <string name="a_theme_settings_text">Simular ações de experimentação de tema</string>
+        <string name="s_fail_settings_text">Simular falha de ações</string>
+        <string name="language_settings_text">Idioma</string>
+        <string name="restore_settings_text">Restaurar Padrões</string>
+        <string name="tz_settings_text">Configurações de Fuso Horário</string>
+        <string name="select_tz_settings_text">Selecionr Fuso Horário:</string>
+        <string name="select_offset_settings_text">Selecionar Offset (normalmente 0):</string>
+        <string name="none_text">Nenhum</string>
+        <string name="15_settings_text">15</string>
+        <string name="30_settings_text">30</string>
+        <string name="45_settings_text">45</string>
+        <string name="dst_settings_text">Usar Horário de Verão</string>
+        <string name="c_tz_settings_text">Fuso Horário Atual:</string>
+        <string name="s_tz_settings_text">Definir Fuso Horário</string>
+        <string name="screen_settings_text">Configurações de Tela</string>
+        <string name="enable_st_settings_text">Habilitar tempo limite da tela.</string>
+        <string name="to_sec_settings_text">Tempo limite da tela em segundos:</string>
+        <string name="brig_settings_text">Brilho:</string>
+        <string name="vib_settings_text">Configurações de Vibração</string>
+        <string name="b_vib_settings_text">Vibração do Botão:</string>
+        <string name="k_vib_settings_text">Vibração do Teclado:</string>
+        <string name="a_vib_settings_text">Vibração de Ação:</string>
+         
+        <!-- advanced -->
+        <string name="advanced_text">Avançado</string>
+        <string name="cp_log_advanced_text">Copiar Log para o Cartão SD</string>
+        <string name="fix_per_advanced_text">Corrigir Permissões</string>
+        <string name="part_sd_advanced_text">Particionar Cartão SD</string>
+        <string name="f_m_advanced_text">Gerenciador de Arquivos</string>
+        <string name="terminal_advanced_text">Terminal</string>
+        <string name="re_theme_advanced_text">Recarregar Tema</string>
+        <string name="sidel_advanced_text">ADB Sideload</string>
+        <string name="taoshan_advanced_text">Taoshan</string>
+        <string name="htc_advanced_text">HTC Dumlock</string>
+        <string name="reinject_advanced_text">Re-Injetar TWRP</string>
+        <string name="w_sd1_advanced_text">Você vai perder todos os arquivos em seu Cartão SD!</string>
+        <string name="w_sd2_advanced_text">Essa Ação não pode ser desfeita!</string>
+        <string name="ext_s_advanced_text">EXT Size:</string>
+        <string name="swap_s_advanced_text">Swap Size:</string>
+        <string name="fs_advanced_text">Sistema de Arquivos:</string>
+        <string name="swipe_partition_advanced_text">Deslize para Particionar</string>
+        <string name="ro_boot_advanced_text">Restaurar Boot Original</string>
+        <string name="re_recovery_advanced_text">Reflash Recovery</string>
+        <string name="i_htc_advanced_text">Install HTC Dumlock</string>
+        <string name="swipe_ul_advanced_text">Swipe to Unlock</string>
+        <string name="select_f_o_f_advanced_text">Selecionar um Arquivo ou Pasta</string>
+        <string name="chose_a_advanced_text">Escolher Ação</string>
+        <string name="selected_advanced_text">selecionado:</string>
+        <string name="cp_f_advanced_text">Copiar Arquivo</string>
+        <string name="cp_p_advanced_text">Copiar Pasta</string>
+        <string name="move_advanced_text">Mover</string>
+        <string name="chmod_755_advanced_text">chmod 755</string>
+        <string name="chmod_advanced_text">chmod</string>
+        <string name="delete_advanced_text">Deletar</string>
+        <string name="rename_f_advanced_text">Renomear Arquivo</string>
+        <string name="rename_fol_advanced_text">Renomear Pasta</string>
+        <string name="select_destin_advanced_text">Selecionar Pasta Destino</string>
+        <string name="rename_advanced_text">Renomear</string>
+        <string name="name_advanced_text">Nome:</string>
+        <string name="set_perm_advanced_text">Definir Permissões</string>
+        <string name="perm_advanced_text">Permissões:</string>
+        <string name="conf_a_advanced_text">Confirmar Ação</string>
+        <string name="cancel_advanced_text">Pressione voltar para cancelar.</string>
+        <string name="swipe_conf_advanced_text">Deslize para Confirmar</string>
+        <string name="decrypt_data_advanced_text">Desencriptar Data</string>
+        <string name="enter_pw_advanced_text">Entre com a Senha:</string>
+        <string name="pw_fail_advanced_text">Senha incorreta, por favor, tente novamente!</string>
+        <string name="enter_pattern_advanced_text">Entrar com Padrão:</string>
+        <string name="dd_td_advanced_text">Desencriptar Data - Tentando Desencriptar</string>
+        <string name="term_c_advanced_text">Comando do Terminal</string>
+        <string name="brows_start_advanced_text">Navegar para Pasta Inicial</string>
+        <string name="kill_advanced_text">Kill</string>
+        <string name="wipe_d_advanced_text">Limpar Dalvik Cache</string>
+        <string name="wipe_c_advanced_text">Limpar Cache</string>
+        <string name="swipe_sidel_advanced_text">Deslize para iniciar Sideload</string>
+        <string name="note_fix_advanced_text">Nota: Corrigindo as permissões raramente é necessário.</string>
+        <string name="fix_sel1_advanced_text">Também corrigir contextos do SELinux</string>
+        <string name="fix_sel2_advanced_text">Corrigir os contextos do SELinux pode fazer</string>
+        <string name="fix_sel3_advanced_text">com que seu dispositivo não Inicie corretamente.</string>
+        <string name="swipe_perm_advanced_text">Deslizar para Corrigir Permissões</string>
+        <string name="reboot_advanced_text">Reiniciar</string>
+        <string name="su_ch_advanced_text">SuperSU Check</string>
+        <string name="no_root_advanced_text">Your dispositivo parece não ter acesso root.</string>
+        <string name="su_?_advanced_text">Instalar SuperSU agora?</string>
+        <string name="this_root_advanced_text">Isto irá rootar seu dispositivo.</string>
+        <string name="not_install_advanced_text">Não Instalar</string>
+        <string name="swipe_install_advanced_text">Deslize para Instalar</string>
+        <string name="select_storage_advanced_text">Selecionar Armazenamento</string>
+        <string name="ok_advanced_text">OK</string>
+        <string name="language_advanced_text">Idioma</string>
+        <string name="select_language_advanced_text">Selecionar Idioma</string>
+        <string name="set_language_advanced_text">Definir Idioma</string>
+        <string name="cur_language_advanced_text">Idioma Atual:</string>        
+         
+         
+    </resources>
+</language>

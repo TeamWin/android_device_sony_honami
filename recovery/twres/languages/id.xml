@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<language>
+	<display>Indonesia</display>
+
+	<resources>
+		<resource name="font" type="fontoverride" filename="RobotoCondensed-Regular.ttf" scale="100" />
+		<resource name="mediumfont" type="fontoverride" filename="RobotoCondensed-Regular.ttf" scale="100" />
+		<resource name="filelist" type="fontoverride" filename="RobotoCondensed-Regular.ttf" scale="100" />
+		<resource name="fixed" type="fontoverride" filename="DroidSansMono.ttf" scale="100" />
+		
+		<!-- Mainpage translation -->
+		<string name="install_button_text">Pasang</string>
+		<string name="wipe_button_text">Hapus</string>
+		<string name="backup_button_text">Cadangkan</string>
+		<string name="restore_button_text">Kembalikan</string>
+		<string name="mount_button_text">Buka</string>
+		<string name="settings_button_text">Pengaturan</string>
+		<string name="advanced_button_text">Pengaturan Tambahan</string>
+		<string name="reboot_button_text">Menyalakan Ulang</string>
+		
+		<!-- Install translation -->
+		<string name="install_zip_text">Pasang zip</string>
+		<string name="install_image_text">Pasang Image</string>
+		<string name="select_file_from_text">Pilih File Dari</string>
+		<string name="select_storage_text">Pilih Memori Penyimpanan</string>
+		
+		<!-- flash-confirm translation -->
+		<string name="install_warning1_text">Operasi ini dapat menginstal yang tidak kompatibel</string>
+		<string name="install_warning2_text">Perangkat lunak dan grafis anda tidak bekerja.</string>
+		<string name="install_cancel1_text">Tekan kembali untuk membatalkan penambahan zip ini.</string>
+		<string name="install_file_text">File:</string>
+		<string name="install_folder_text">Folder:</string>
+		<string name="install_signature_text">Verifikasi keaslian file zip gagal</string>
+		<string name="install_inject_text">Pasang TWRP setelah install</string>
+		<string name="install_add_zip_text">Tambahkan zip lagi</string>
+		<string name="install_clear_queue_text">Bersihkan antrian zip</string>
+		<string name="install_swipe_flash_text">Geser untuk memulai proses penginstalan</string>
+		<string name="install_max_of_text">Dari 10 file batas maksimal antrian</string>
+		
+		
+		<!-- Flash zip translation -->
+		<string name="install_of_text">Dari</string>
+		
+		<!-- Flash done translaton -->
+		<string name="install_failed_text">Gagal</string>
+		<string name="install_successful_text">Berhasil</string>
+		<string name="install_reboot_system_text">Restart Sistem</string>
+		
+		<!-- flashimage_confirm -->
+		<string name="install_select_target_p_text">Pilih Partisi Tujuan</string>
+		<string name="install_select_partition_text">Pilih Partisi Untuk Pasang File Image:</string>
+		
+		<!-- clear vars translation -->
+		<string name="install_confirm_action_text">Pastikan Pilihan</string>
+		<string name="install_cancel2_action_text">Tekan Tombol Kembali Untuk Membatalkan.</string>
+		
+		<!-- action translation -->
+		<string name="install_cancel_action_text">Batal</string>
+		
+		<!-- action complete -->
+		<string name="install_back_text">Kembali</string>
+		
+		<!-- wipe -->
+		<string name="wipe_text">Hapus</string>
+		<string name="factory_reset_text">Hapus Data Pabrik</string>
+		<string name="factory_reset_wip1_text">Hapus Data, Cache, dan Dalvik</string>
+		<string name="factory_reset_wip2_text">(Tidak sertakan memory internal)</string>
+		<string name="factory_reset_wip3_text">Sebagian besar waktu ini</string>
+		<string name="factory_reset_wip4_text">Hanya hapus yang anda butuhkan.</string>
+		<string name="android_secure_text">Android Secure</string>
+		<string name="sd_ext_text">SD-EXT</string>
+		<string name="advanced_wipe_text">Hapus Tambahan</string>
+		<string name="format_data_text">Hapus Total Data</string>
+		<string name="wipe_encryption_text">Hapus Enkripsi</string>
+		<string name="swipe_factory_text">Geser untuk hapus data pabrik</string>
+		
+		<!-- advanced wipe -->
+		<string name="select_partition_wipe_text">Pilih Partisi untuk di hapus:</string>
+		<string name="invalid_partition_wipe_text">Partisi yang dipilih tidak tersedia</string>
+		<string name="change_or_repair_file_text">Perbaiki atau ubah file sistem</string>
+		<string name="swipe_wipe_text">Geser untuk hapus</string>
+		
+		<!-- formatdata -->
+		<string name="format_data1_text">Format (Hapus) akan menghilangkan seluruh aplikasi anda,</string>
+		<string name="format_data2_text">Cadangan, Gambar, Film, media, dan</string>
+		<string name="format_data3_text">Hilangkan enkripsi di memori internal.</string>
+		<string name="format_data4_text">Ini tidak bisa di selesaikan. Tekan tombol batal.</string>
+		<string name="format_data5_text">Ketik yes untuk melanjutkan.</string>
+		
+		<!-- partitionoptions -->
+		<string name="p_options_text">Pengaturan Partisi untuk:</string>
+		<string name="m_options_text">Titik buka:</string>
+		<string name="c_fs_text">File Sistem sekarang:</string>
+		<string name="present_y_text">Sekarang: Ya</string>
+		<string name="present_n_text">Sekarang: Tidak</string>
+		<string name="removable_y_text">Dapat Dipindahkan : Ya</string>
+		<string name="removable_n_text">Dapat Dipindahkan: Tidak</string>
+		<string name="size_text">Ukuran:</string>
+		<string name="used_text">Digunakan:</string>
+		<string name="free_text">Bebas:</string>
+		<string name="backup_size_text">Ukuran Cadangan:</string>
+		<string name="resize_fs_text">Ubah Ukuran File Sistem</string>
+		<string name="repair_fs_text">Perbaiki File Sistem</string>
+		<string name="change_fs_text">Ubah File Sistem</string>
+		
+		<!-- selectfilesystem -->
+		<string name="change_fs_for_text">Ubah File Sistem Untuk:</string>
+		<string name="mount_point_text">Titik buka:</string>
+		<string name="current_fs_text">File Sistem sekarang:</string>
+		<string name="incompatible_fs_warn1_text">Beberapa ROM dan Kernel tidak mendukung</string>
+		<string name="incompatible_fs_warn2_text">file sistem. Lanjutkan dengan hati-hati!</string>
+		<string name="ext2_text">EXT2</string>
+		<string name="ext3_text">EXT3</string>
+		<string name="ext4_text">EXT4</string>
+		<string name="fat_text">FAT</string>
+		<string name="exfat_text">exFAT</string>
+		<string name="f2fs_text">F2FS</string>
+		
+		<!-- Backup -->
+		<string name="backup_text">Cadangan</string>
+		<string name="storage_text">Penyimpanan:</string>
+		<string name="encryption_text">ENKRIPSI</string>
+		<string name="name_text">Nama:</string>
+		<string name="select_p_t_b_text">Pilih Partisi untuk di cadangkan:</string>
+		<string name="select_storage_text">Pilih Penyimpanan</string>
+		<string name="refresh_sizes_text">Perbarui Ukuran</string>
+		<string name="swipe_backup_text">Geser untuk cadangkan</string>
+		<string name="storage_text">Penyimpanan:</string>
+		<string name="enable_compres_text">Aktifkan kompresi</string>
+		<string name="skip_md5_g_text">Lewati Pembuatan MD5 selama pencadangan</string>
+		<string name="disable_space_check_text">Nonaktifkan pengecekan sisa penyimpanan</string>
+		<string name="backup_name_exists_text">Cadangan dengan tersebut sudah tersedia!</string>
+		<string name="append_date_text">Tambahkan Tanggal</string>
+		<string name="encryption_?_text">Enkripsi Cadangan Anda?</string>
+		<string name="enter_pw_text">Masukkan kata kunci:</string>
+		<string name="pw_wrong_text">Kata kunci tidak sama!</string>
+		<string name="cancel_text">Batal</string>
+		<string name="pw_again_text">Masukkan kata kunci kembali:</string>
+		<string name="progress_text">Proses:</string>
+		
+		<!-- Restore -->
+		<string name="restore_text">Kembalikan</string>
+		<string name="select_b_f_text">Pilih Cadangan dari</string>
+		<string name="select_p_restore_text">Pilih cadangan untuk di kembalikan:</string>
+		<string name="encrypted_b_text">Enkripsi Cadangan</string>
+		<string name="enter_pas_text">Masukkan Kata Kunci:</string>
+		<string name="pw_fail_text">Kata kunci salah, Silahkan coba lagi!</string>
+		<string name="delete_b_text">Hapus Cadangan</string>
+		<string name="try_dec_text">Enkripsi cadangan - Mencoba dekripsi</string>
+		<string name="b_made_on_text">Cadangan dibuat di</string>
+		<string name="select_p_restore_text">Pilih partisi untuk di kembalikan:</string>
+		<string name="enable_md5_of_b_text">Aktifkan verifikasi md5 untuk file cadangan</string>
+		<string name="delete_b_text">Hapus Cadangan</string>
+		<string name="swipe_restore_text">Geser untuk kembalikan</string>
+		<string name="rename_b_text">Ubah nama cadangan</string>
+		
+		<!-- Mount -->
+		<string name="mount_text">Mount</string>
+		<string name="select_p_mount_text">Pilih partisi untuk di Mount:</string>
+		<string name="mount_sys_ro_text">Buka partisi sistem hanya read-only </string>
+		<string name="mount_usb_text">Buka Penyimpanan</string>
+		<string name="decrypt_data_text">Dekripsi data</string>
+		<string name="enable_mtp_text">Aktifkan MTP</string>
+		<string name="disable_mtp_text">Nonaktifkan MTP</string>
+		<string name="usb_storage_text">Penyimpanan USB</string>
+		<string name="usb_storage_m_text">Penyimpanan USB telah dibuka</string>
+		<string name="remove_safe1_text">Perangkat anda aman untuk di lepaskan</string>
+		<string name="remove_safe2_text">Dari komputer sebelum menutup!</string>
+		<string name="unmount_text">Menutup</string>
+		
+		<!-- rebootmenu -->
+		<string name="reboot_m_text">Menu Restart</string>
+		<string name="system_text">Sistem</string>
+		<string name="power_off_text">Matikan</string>
+		<string name="recovery_text">Recovery</string>
+		<string name="bootloader_text">Bootloader</string>
+		<string name="download_text">Unduh</string>
+		
+		<!-- system ro -->
+		<string name="unmodified_sys_text">Sistem Partisi tidak termodifikasi</string>
+		<string name="keep_ro_?_text">Tetapkan Sistem hanya baca?</string>
+		<string name="keep_ro_?1_text">TWRP bisa meninggalkan partisi system tidak termodifikasi</string>
+		<string name="keep_ro_?2_text">untuk mempermudah anda untuk mengambil pembaruan secara resmi.</string>
+		<string name="keep_ro_?3_text">TWRP tidak akan mencegah ROM pabrikan dari</string>
+		<string name="keep_ro_?4_text">Mengganti TWRP and tidak akan menawarkan root untuk perangkat.</string>
+		<string name="keep_ro_?5_text">Pasang zip atau memungkin untuk menjalankan operasi lewat adb</string>
+		<string name="keep_ro_?6_text">Modifikasi partisi sistem.</string>
+		<string name="never_show_text">Jangan pernah memunculkan tampilan ini lagi disetiap boot</string>
+		<string name="keep_ro_!_text">Tetap hanya baca</string>		
+		<string name="swipe_modify_text">Geser untuk mengizinkan modifikasi</string>
+			
+		<!-- Settings translation -->
+		<string name="settings_text">Pengaturan</string>
+		<string name="g_settings_text">Pengaturan Umum</string>
+		<string name="zip_sig_settings_text">Verifikasi keaslian file zip</string>
+		<string name="rmrf_settings_text">Gunakan rm -rf sebagai ganti dari penghapusan</string>
+		<string name="skip_md5_settings_text">Lewati pembuatan MD5 selama pencadangan</string>
+		<string name="enable_md5_settings_text">Aktifkan verifikasi MD5 pada file cadangan</string>
+		<string name="24_settings_text">Gunakan Jam 24-Jam</string>
+		<string name="samshit_settings_text">Gunakan tombol samsung</string>
+		<string name="a_theme_settings_text">Simulasi tema untuk percobaan</string>
+		<string name="s_fail_settings_text">Tindakan gagal simulasi tema</string>
+		<string name="language_settings_text">Bahasa</string>
+		<string name="restore_settings_text">Kembalikan ke pengaturan awal</string>
+		<string name="tz_settings_text">Pengaturan zona waktu</string>
+		<string name="select_tz_settings_text">Pilih zona waktu:</string>
+		<string name="select_offset_settings_text">Pilih Offset (usually 0):</string>
+		<string name="none_text">Tidak ada</string>
+		<string name="15_settings_text">15</string>
+		<string name="30_settings_text">30</string>
+		<string name="45_settings_text">45</string>
+		<string name="dst_settings_text">Gunakan daylight savings time (DST)</string>
+		<string name="c_tz_settings_text">Zona waktu sekarang:</string>
+		<string name="s_tz_settings_text">Atur zona waktu</string>
+		<string name="screen_settings_text">Pengaturan layar</string>
+		<string name="enable_st_settings_text">Aktifkan waktu tunda layar.</string>
+		<string name="to_sec_settings_text">Waktu tunda layar dalam detik:</string>
+		<string name="brig_settings_text">Kecerahan:</string>
+		<string name="vib_settings_text">Pengaturan Getar</string>
+		<string name="b_vib_settings_text">Getar tombol:</string>
+		<string name="k_vib_settings_text">Getar papan kunci:</string>
+		<string name="a_vib_settings_text">Getar tindakan:</string>
+		
+		<!-- advanced -->
+		<string name="advanced_text">Tambahan</string>
+		<string name="cp_log_advanced_text">Salin Log ke memori external</string>
+		<string name="fix_per_advanced_text">Perbaiki perizinan</string>
+		<string name="part_sd_advanced_text">Partisi memori eksternal</string>
+		<string name="f_m_advanced_text">Manajer file</string>
+		<string name="terminal_advanced_text">Terminal</string>
+		<string name="re_theme_advanced_text">Segarkan tema</string>
+		<string name="sidel_advanced_text">ADB Sideload</string>
+		<string name="taoshan_advanced_text">Taoshan</string>
+		<string name="htc_advanced_text">HTC Dumlock</string>
+		<string name="reinject_advanced_text">Pasang Kembali TWRP</string>
+		<string name="w_sd1_advanced_text">Kamu akan kehilangan seluruh data di memori eksternal!</string>
+		<string name="w_sd2_advanced_text">Tindakan ini tidak akan selesai!</string>
+		<string name="ext_s_advanced_text">EXT Size:</string>
+		<string name="swap_s_advanced_text">Swap Size:</string>
+		<string name="fs_advanced_text">File Sistem:</string>
+		<string name="swipe_partition_advanced_text">Geser untuk mempartisi</string>
+		<string name="ro_boot_advanced_text">Kembalikan file boot asli</string>
+		<string name="re_recovery_advanced_text">Install kembali recovery</string>
+		<string name="i_htc_advanced_text">Pasang HTC Dumlock</string>
+		<string name="swipe_ul_advanced_text">Geser untuk membuka</string>
+		<string name="select_f_o_f_advanced_text">Pilih File atau Folder</string>
+		<string name="chose_a_advanced_text">Pilih tindakan</string>
+		<string name="selected_advanced_text">Terpilih:</string>
+		<string name="cp_f_advanced_text">Salin File</string>
+		<string name="cp_p_advanced_text">Salin Folder</string>
+		<string name="move_advanced_text">Pindahkan</string>
+		<string name="chmod_755_advanced_text">chmod 755</string>
+		<string name="chmod_advanced_text">chmod</string>
+		<string name="delete_advanced_text">Hapus</string>
+		<string name="rename_f_advanced_text">Ubah nama File</string>
+		<string name="rename_fol_advanced_text">Ubah nama Folder</string>
+		<string name="select_destin_advanced_text">Pilih tujuan Folder</string>
+		<string name="rename_advanced_text">Ubah nama</string>
+		<string name="name_advanced_text">Nama:</string>
+		<string name="set_perm_advanced_text">Atur perizinan</string>
+		<string name="perm_advanced_text">Perizinan:</string>
+		<string name="conf_a_advanced_text">Pastikan tindakan</string>
+		<string name="cancel_advanced_text">Tekan tombol kembali untuk membatalkan.</string>
+		<string name="swipe_conf_advanced_text">Geser untuk konfirmasi</string>
+		<string name="decrypt_data_advanced_text">Dekripsi data</string>
+		<string name="enter_pw_advanced_text">Masukkan kata kunci:</string>
+		<string name="pw_fail_advanced_text">Kata kunci salah, Silahkan coba lagi!</string>
+		<string name="enter_pattern_advanced_text">Masukkan Pattern:</string>
+		<string name="dd_td_advanced_text">Dekripsi Data - Mencoba dekripsi</string>
+		<string name="term_c_advanced_text">Perintah terminal</string>
+		<string name="brows_start_advanced_text">Menjelajah ke folder utama</string>
+		<string name="kill_advanced_text">Bunuh</string>
+		<string name="wipe_d_advanced_text">Hapus Dalvik Cache</string>
+		<string name="wipe_c_advanced_text">Hapus Cache</string>
+		<string name="swipe_sidel_advanced_text">Geser to memulai Sideload</string>
+		<string name="note_fix_advanced_text">Catatan: Perbaikan perizinan sangat dibutuhkan.</string>
+		<string name="fix_sel1_advanced_text">Ikutkan perbaikan pada SE Linux konteks</string>
+		<string name="fix_sel2_advanced_text">Perbaikan SE Linux konteks dapat menyebabkan</string>
+		<string name="fix_sel3_advanced_text">Perangkat anda tidak akan boot dengan baik.</string>
+		<string name="swipe_perm_advanced_text">Geser untuk perbaikan perizinan</string>
+		<string name="reboot_advanced_text">Restart</string>
+		<string name="su_ch_advanced_text">Pengecekan SuperSU</string>
+		<string name="no_root_advanced_text">Perangkat anda tidak terlihat seperti di root.</string>
+		<string name="su_?_advanced_text">Pasang SuperSU sekarang?</string>
+		<string name="this_root_advanced_text">Ini akan me-root perangkat anda.</string>
+		<string name="not_install_advanced_text">Jangan pasang</string>
+		<string name="swipe_install_advanced_text">Geser untuk pasang</string>
+		<string name="select_storage_advanced_text">Pilih penyimpanan</string>
+		<string name="ok_advanced_text">OK</string>
+		<string name="language_advanced_text">Bahasa</string>
+		<string name="select_language_advanced_text">Pilih bahasa</string>
+		<string name="set_language_advanced_text">Atur bahasa</string>
+		<string name="cur_language_advanced_text">Bahasa sekarang:</string>		
+		
+		
+	</resources>
+</language>
