@@ -38,9 +38,10 @@ PRODUCT_COPY_FILES += \
 
 # TWRP
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/bootrec-device:root/bootrec-device
-
-# Audio
+    $(LOCAL_PATH)/rootdir/bootrec-device:root/bootrec-device \
+    $(LOCAL_PATH)/rootdir/bootrec-device:recovery/root/etc/bootrec-device
+    
+    
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml
 
